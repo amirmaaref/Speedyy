@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_show_more"
+            android:icon="@drawable/icon_info"
+            android:title="Show/Hide Details" />
+
+        <item
+            android:id="@+id/nav_night_mode"
+            android:icon="@drawable/icon_night_mode"
+            android:title="Night Mode On/Off" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_contact"
+                android:icon="@drawable/mail"
+                android:title="Contact by E-Mail" />
+
+            <item
+                android:id="@+id/nav_rate"
+                android:icon="@drawable/icon_star"
+                android:title="See On Bazaar"/>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share App Link"/>
+        </menu>
+    </item>
+
+</menu>
